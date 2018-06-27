@@ -8,7 +8,7 @@ We are using version 5.13
 
 import java.sql.*;
 
-public class ImpalaTest {
+public class ImpalaTestNoAuth {
     // JDBC DRIVER classname
     public static final String JDBC_DRIVER = "com.cloudera.impala.jdbc41.Driver";
     // String of impala connection
