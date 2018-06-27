@@ -41,6 +41,10 @@ public class ImpalaTest {
             e.printStackTrace();
         }
         // should probably close connection
-
+        try {
+            con.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
