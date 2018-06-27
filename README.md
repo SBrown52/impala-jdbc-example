@@ -1,8 +1,7 @@
 # impala-jdbc-example
 
-This is a basic quick and dirty class to connect to the Impala using Cloudera's Impala JDBC driver
-We connect to the quickstart.cloudera VM which is running locally in VirtualBox.
+This project contains examples on how to create a quick and dirty java client to query Impala from JDBC. We show how to do it with no authentication and with kerberos. We do not explain how to setup Kerberos on the cluster.
 
-You will need to install and put the ImpalaJDBC41 driver on the classpath. This can be downloaded from: https://www.cloudera.com/downloads/connectors/impala/jdbc/2-6-3.html
+This project uses the Cloudera Quickstart VM running in a Virtual Box VM, which you will need running. You will also need to install and put the ImpalaJDBC41 driver on the classpath. This can be downloaded from: https://www.cloudera.com/downloads/connectors/impala/jdbc/2-6-3.html
 
-Test with CDH quickstart 5.13 and Impala JDBC driver 2.6.3
+Tested with CDH quickstart 5.13 and Impala JDBC driver 2.6.3
