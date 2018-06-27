@@ -1,0 +1,16 @@
+# Java stuff
+*.zip
+*.class
+*.log
+*.jar
+
+*/target/
+
+# IntelliJ
+*.iml
+*.idea
+
+# Eclipse
+.settings
+.classpath
+.project
